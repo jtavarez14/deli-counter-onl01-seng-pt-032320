@@ -4,6 +4,8 @@ def line(katz_deli)
   people = 0
   if people == 0 
     puts "The line is currently empty."
+  else people > 0 
+    puts "There are people on the line."
 end
 end
 
